@@ -4,3 +4,6 @@ from django.shortcuts import render
 #render (renderizar) es pintar
 def Home(request):
     return render(request,'index.html')
+
+def Medicos(request):
+    return render(request,'registrosmedicos.html')
